@@ -6,6 +6,7 @@
 
 double tc_bader_compute_k(const GRAPH_TYPE *);
 
+UINT_t tc_fast_llm(const GRAPH_TYPE *);
 UINT_t tc_davis(const GRAPH_TYPE *);
 UINT_t tc_wedge(const GRAPH_TYPE *);
 UINT_t tc_wedge_DO(const GRAPH_TYPE *);
