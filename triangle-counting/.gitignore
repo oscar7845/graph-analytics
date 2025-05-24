@@ -1,0 +1,7 @@
+core
+*.err
+*-
+tc
+tcO*
+*.mtx
+gmon.out
