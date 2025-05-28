@@ -10,7 +10,7 @@
 #include "types.h"
 #include "graph.h"
 
-UINT_t tc_fast(const GRAPH_TYPE *__restrict graph)
+UINT_t tc_fast_llm(const GRAPH_TYPE *__restrict graph)
 {
     const UINT_t n = graph->numVertices;
     const UINT_t * __restrict row_ptr = graph->rowPtr;

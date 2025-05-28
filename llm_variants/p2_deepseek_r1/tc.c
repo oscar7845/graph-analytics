@@ -1,7 +1,7 @@
 #include "types.h"
 #include "graph.h" 
 
-UINT_t tc_fast(const GRAPH_TYPE *__restrict graph) {
+UINT_t tc_fast_llm(const GRAPH_TYPE *__restrict graph) {
     GRAPH_TYPE *graph2 = reorder_graph_by_degree(graph, REORDER_HIGHEST_DEGREE_FIRST);
     const UINT_t n = graph2->numVertices;
     const UINT_t *__restrict Ap = graph2->rowPtr;
