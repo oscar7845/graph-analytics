@@ -14,7 +14,7 @@ SRCS    = \
     tc.c
 
 # Output executable
-TARGET  = p2_tc_deepseek_r1
+TARGET  = tc_p2_deepseek_r1
 
 # Build rule
 all:

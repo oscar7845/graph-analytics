@@ -14,7 +14,7 @@ SRCS    = \
     tc.c
 
 # Output executable
-TARGET  = tc_openai_o3
+TARGET  = tc_p2_openai_o3
 
 # Build rule
 all:

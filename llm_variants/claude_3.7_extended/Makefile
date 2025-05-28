@@ -14,7 +14,7 @@ SRCS    = \
     tc.c
 
 # Output executable
-TARGET  = tc_claude_3.7_ext
+TARGET  = tc_claude_3.7_extended
 
 # Build rule
 all:

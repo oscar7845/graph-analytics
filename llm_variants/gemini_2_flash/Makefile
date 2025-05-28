@@ -14,7 +14,7 @@ SRCS    = \
     tc.c
 
 # Output executable
-TARGET  = tc_gemini_2
+TARGET  = tc_gemini_2_flash
 
 # Build rule
 all:
